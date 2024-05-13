@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    fruits = ['apple', 'banana', 'orange', 'kiwi', 'watermelon', 'mango']
+    return render_template('index.html', fruits=fruits)
 
 @app.route('/user/<name>')
 def user(name):
