@@ -1,18 +1,9 @@
 {% extends 'base.html' %}
 {% block title %} User Template {% endblock %}
 
-{% block body %}
 
-{% if name %}
-
-<h1>Hello, {{name }}!</h1>
-
-<h1>How are you doing today?</h1>
-
-{% else %}
-
-<h1>Hello, World!</h1>
-
-{% endif %}
-
+{% block page_content %}
+<div class="page-header">
+    <h1>Hello, {{name }}!</h1>
+</div>
 {% endblock %}

@@ -7,8 +7,7 @@ bootstrap = Bootstrap(app)
 
 @app.route('/')
 def index():
-    fruits = ['apple', 'banana', 'orange', 'kiwi', 'watermelon', 'mango']
-    return render_template('index.html', fruits=fruits)
+    return render_template('index.html')
 
 @app.route('/user/<name>')
 def user(name):
