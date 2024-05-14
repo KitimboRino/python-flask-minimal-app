@@ -92,5 +92,4 @@ You have successfully set up and run a minimal Flask application. This basic set
 - [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
 
 ---
-
-This README file should help guide users through the setup and running of the minimal Flask application provided in this repository.
+AUTHOR: Rino Kitimbo
